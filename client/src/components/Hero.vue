@@ -10,7 +10,7 @@
                                         <p class="hero-content-left__description">16 year old (backend leaning) full stack web developer from Dnipro, The Ukrain. Most of my current experience is building customer-facing websites and transforming business operations.</p>
                                 
                                         <div class="hero-content-left__btn">
-                                                <Button type="link" to="#project" :color="colorLink || 'white'">My Project</Button>
+                                                <Button type="link" href="#project" :color="colorLink || 'white'">My Project</Button>
                                                 <Button type="link" to="/resume">
                                                         Download resume
 

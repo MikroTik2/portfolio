@@ -11,19 +11,19 @@
                 <slot />
         </button>
 
-        <router-link
+        <a
                 v-else
                 class="btn"
                 :class="['btn', {
                         'btn--black': color === 'black',
                         'btn--white': color === 'white',
                 }]"
-                :to="to"
+                :href="href"
                 :style="{ backgroundColor: background }"
         >
                       
                 <slot />
-        </router-link>
+        </a>
 </template> 
 
 <script setup>
