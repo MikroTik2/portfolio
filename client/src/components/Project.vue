@@ -85,8 +85,6 @@
         import ExtraProject from '@/components/ExtraProject.vue';
         import gsap from "gsap";
         
-        import api from '@/config/api';
-
         gsap.registerPlugin();
 
         const contentWidth = ref('90');
@@ -96,12 +94,6 @@
         const imageEffectRotate = ref(null);
         const imageEffectParallaxOne = ref(null);
         const imageEffectParallaxTwo = ref(null);
-
-        const getAllProjectId = ref([]);
-
-        const getAllProject = async () => {
-                getAllProjectId.value = await api.getAllProject();
-        }
 
         const handleScroll = () => {
                 const scrollTop = window.screenY || document.documentElement.scrollTop;
@@ -177,8 +169,6 @@
         onMounted( () => {
                 window.addEventListener("scroll", handleScroll);
                 window.addEventListener("scroll", handleScrollEfectImage);
-
-                getAllProject()
         });
 
         onBeforeUnmount(() => {
