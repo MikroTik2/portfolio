@@ -28,9 +28,9 @@
         import { ref } from 'vue';
 
         const extraItems = ref([
-                { name: "JolyBell.clone", linkDemo: "/", linkGitHub: "https://github.com/MikroTik2/jolybell", tools: [ "Vue", "Sass", "Express.js" ] },
-                { name: "Avion", linkDemo: "/", linkGitHub: "https://github.com/MikroTik2/Avion", tools: [ "Vue", "Sass", "Express.js", "Pinia" ]   },
-                { name: "Shopr", linkDemo: "/", linkGitHub: "https://github.com/MikroTik2/ecommerce-shopr", tools: [ "Vue", "Sass", "Express.js", "Node.js" ]   },
+                { name: "JolyBell.clone", linkDemo: "", linkGitHub: "https://github.com/MikroTik2/jolybell", tools: [ "Vue", "Sass", "Express.js" ] },
+                { name: "Avion", linkDemo: "https://avion-client.vercel.app/", linkGitHub: "https://github.com/MikroTik2/Avion", tools: [ "Vue", "Sass", "Express.js", "Pinia" ]   },
+                { name: "Shopr", linkDemo: "", linkGitHub: "https://github.com/MikroTik2/ecommerce-shopr", tools: [ "Vue", "Sass", "Express.js", "Node.js" ]   },
         ]);
 </script>
 

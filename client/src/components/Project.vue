@@ -39,12 +39,6 @@
                                                         <a class="project-content__grid-info__title">Business Website</a>
                                                         
                                                         <p class="project-content__grid-info__description">Easy navigation, online ordering, secure payment, personalization, analytics. Efficiency in every click.</p>
-                                                        <div class="project-content__grid-info__skills sdfe23">
-                                                                <span class="project-content__grid-info__skills-item">PHP</span>
-                                                                <span class="project-content__grid-info__skills-item">PHP</span>
-                                                                <span class="project-content__grid-info__skills-item">PHP</span>
-                                                                <span class="project-content__grid-info__skills-item">PHP</span>
-                                                        </div>
                                                 </div>
                                         </div>
                                 </div>
