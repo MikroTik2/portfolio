@@ -5,9 +5,9 @@
                 
                         <div class="contact-options">
                                 <div class="contact-options-item" v-for="(element, i) in optionsElement" :key="i">
-                                        <div class="contact-options-item_btn">
+                                        <router-link :to="element.link" class="contact-options-item_btn">
                                                 <img class="contact-options-item_icon" :src="element.icon" :alt="element.text">
-                                        </div>
+                                        </router-link>
 
                                         <span>{{ element.text }}</span>
                                 </div>
@@ -28,10 +28,10 @@
         import { ref } from 'vue';
 
         const optionsElement = ref([
-                { icon: "/svg/meeting.svg", text: "Plan meeting" },
-                { icon: "/svg/linkedin.svg", text: "Connect" },
-                { icon: "/svg/gmail.svg", text: "dotsenk20034@gmail.com" },
-        ])
+                { icon: "/svg/meeting.svg", text: "Plan meeting", link: ""},
+                { icon: "/svg/linkedin.svg", text: "Connect", link: "https://www.linkedin.com/in/%D0%B0%D1%80%D1%82%D1%83%D1%80-%D0%B4%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D0%BE-0a3a722a1/" },
+                { icon: "/svg/gmail.svg", text: "dotsenk20034@gmail.com", link: "" },
+        ]);
 </script>
 
 <style lang="scss" scoped>

@@ -103,7 +103,7 @@
 
                                                 display: flex;
                                                 align-items: center;
-                                                margin-right: 20px;
+                                                margin-right: 5px;
 
                                                 &-contact-bar {
                                                         padding: 6px 10px;
@@ -126,6 +126,7 @@
                                                         @media only screen and (max-width: 420px) {
                                                                 font-size: 12px;
                                                         }
+
                                                         
                                                         &:last-child {
                                                                 border-right: 1px solid transparent;

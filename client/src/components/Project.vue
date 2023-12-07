@@ -5,15 +5,15 @@
                                 <h2 class="project-content__title">Selected Project</h2>
                         
                                 <div id="cardJolyBell" class="project-content__grid" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px);" >
-                                        <a class="project-content__grid-block" href="/project/joly-bell">
+                                        <div class="project-content__grid-block">
 
                                                 <img ref="imageEffectRotate" id="craft-blue" class="project-content__grid-block__image" src="/img/craft-blue.webp" alt="craft-blue" style="translate: none; rotate: none; scale: none;">
                                                 <div class="project-content__grid-block__background"></div>
-                                        </a>
+                                        </div>
 
                                         <div class="project-content__grid-info">
                                                 <div>
-                                                        <a class="project-content__grid-info__title" href="/">JolyBell.copy E-Commerce Platform</a>
+                                                        <h2 class="project-content__grid-info__title" >JolyBell.copy E-Commerce Platform</h2>
                                                         
                                                         <p class="project-content__grid-info__description">It is a full e-commerce developed using Vue.js (version 3) for frontend and Express.js for backend. The project provides a user interface for online shopping with integrated Liqpay payment system</p>
                                                         <div class="project-content__grid-info__skills">
