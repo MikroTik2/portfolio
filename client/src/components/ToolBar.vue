@@ -111,6 +111,10 @@
                                                         border: 1px solid rgba(242,247,251,.16);
                                                         border-radius: 8px;
                                                         display: flex;
+
+                                                        @media only screen and (max-width: 350px) {
+                                                                padding: 6px 3px;
+                                                        }
                                                 }
 
                                                 &-toggle {
@@ -127,6 +131,9 @@
                                                                 font-size: 12px;
                                                         }
 
+                                                        @media only screen and (max-width: 420px) {
+                                                                font-size: 10px;
+                                                        }
                                                         
                                                         &:last-child {
                                                                 border-right: 1px solid transparent;
@@ -143,6 +150,11 @@
                                                         border-right: 1px solid rgba(242,247,251,.1);
                                                         margin-right: 8px;
                                                         padding-right: 14px;
+
+                                                        @media only screen and (max-width: 350px) {
+                                                                margin-right: 0px;
+                                                                padding-right: 5px;
+                                                        }
 
                                                         svg {
                                                                 width: 20px;
