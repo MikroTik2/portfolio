@@ -31,6 +31,7 @@
                 { name: "JolyBell.clone", linkDemo: "https://jolybell-client.vercel.app", linkGitHub: "https://github.com/MikroTik2/jolybell", tools: [ "Vue", "Sass", "Express.js" ] },
                 { name: "Avion", linkDemo: "https://avion-client.vercel.app/", linkGitHub: "https://github.com/MikroTik2/Avion", tools: [ "Vue", "Sass", "Express.js", "Pinia" ]   },
                 { name: "Shopr", linkDemo: "", linkGitHub: "https://github.com/MikroTik2/ecommerce-shopr", tools: [ "Vue", "Sass", "Express.js", "Node.js" ]   },
+                { name: "Telegram Bot", linkGitHub: "https://github.com/MikroTik2/telegram-download", tools: [ "telegraf.js", "axios" ] },
         ]);
 </script>
 
