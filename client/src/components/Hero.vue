@@ -1,6 +1,9 @@
 <template>
-        <section class="hero" id="hero">
+        <section class="hero grain" id="hero">
                 <Header />
+
+                <i class="back1"></i>
+                <i class="back2"></i>
 
                 <div class="hero-container">
                         <div class="hero-content">

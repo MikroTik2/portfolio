@@ -68,15 +68,16 @@
                          cursor: pointer;
                          text-decoration: none;
                          display: initial;
-
+                         
                          @media only screen and (max-width: 768px) {
                               margin: 30px 0 40px;
                               width: 100%;
                          }
-
+                         
                          img {
                               height: 50px;
                               width: 50px;
+                              border-radius: 15px;
                          }
                     }
 
