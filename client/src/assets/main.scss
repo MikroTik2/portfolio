@@ -39,6 +39,10 @@ a {
 	font-style: 1rem;
 }
 
+img {
+	pointer-events: none;
+}
+
 button {
 	font-family: 'Roboto Mono', sans-serif;
 }
@@ -136,28 +140,6 @@ button {
 	transition: all .3s ease-in;
 	-webkit-animation: moveRight 5s infinite linear;
 	animation: moveRight 5s infinite linear;
-}
-
-.grain {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	
-	&::after {
-		background-image: url("/img/grain.png");
-		opacity: .03;
-		content: '';
-		z-index: -5;
-		position: absolute;
-		display: block;
-		width: 200vw;
-		height: 200vw;
-		left: -50%;
-		top: -50%;
-		animation: grain 1.5s steps(6) infinite;
-	}
 }
 
 @keyframes grain {

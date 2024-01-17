@@ -1,5 +1,5 @@
 <template>
-        <section class="hero grain" id="hero">
+        <section class="hero" id="hero">
                 <Header />
 
                 <i class="back1"></i>
