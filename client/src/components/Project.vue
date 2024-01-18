@@ -13,9 +13,9 @@
 
                                         <div class="project-content__grid-info">
                                                 <div>
-                                                        <h2 class="project-content__grid-info__title" >JolyBell.copy E-Commerce Platform</h2>
+                                                        <h2 class="project-content__grid-info__title">My development tools</h2>
                                                         
-                                                        <p class="project-content__grid-info__description">It is a full e-commerce developed using Vue.js (version 3) for frontend and Express.js for backend. The project provides a user interface for online shopping with integrated Liqpay payment system</p>
+                                                        <p class="project-content__grid-info__description">I utilize advanced technologies and tools to deliver web projects for efficiency and scalability. Below are the key components of my technology stack:</p>
                                                         <div class="project-content__grid-info__skills">
                                                                 <span class="project-content__grid-info__skills-item">Vue3</span>
                                                                 <span class="project-content__grid-info__skills-item">Pinia</span>
@@ -36,9 +36,9 @@
 
                                         <div class="project-content__grid-info">
                                                 <div>
-                                                        <a class="project-content__grid-info__title">Business Website</a>
+                                                        <a class="project-content__grid-info__title">Hosting & Maintenance</a>
                                                         
-                                                        <p class="project-content__grid-info__description">Easy navigation, online ordering, secure payment, personalization, analytics. Efficiency in every click.</p>
+                                                        <p class="project-content__grid-info__description">To ensure the stable operation of your websites or lendings, I provide high quality hosting and maintenance services. My hosting and maintenance services are designed to keep your web project running efficiently and smoothly, allowing you to focus on growing your business rather than on technical nuances.</p>
                                                 </div>
                                         </div>
                                 </div>
@@ -55,12 +55,14 @@
                                                 <div>
                                                         <a class="project-content__grid-info__title" href="/project">Web</a>
                                                         
-                                                        <p class="project-content__grid-info__description">I delved into the world of Web by developing a variety of projects utilizing Front-end and Backend.</p>
+                                                        <p class="project-content__grid-info__description">I create responsive and creative user interfaces optimized for mobile devices. The goal is aesthetically pleasing and user-friendly web projects for all devices.</p>
                                                         <div class="project-content__grid-info__skills">
                                                                 <span class="project-content__grid-info__skills-item">Html</span>
                                                                 <span class="project-content__grid-info__skills-item">Css</span>
                                                                 <span class="project-content__grid-info__skills-item">Sass</span>
                                                                 <span class="project-content__grid-info__skills-item">Vue3</span>
+                                                                <span class="project-content__grid-info__skills-item">BootStrap</span>
+                                                                <span class="project-content__grid-info__skills-item">Tailwind</span>
                                                         </div>
                                                 </div>
                                         </div>
