@@ -4,9 +4,9 @@
 
                <!-- dekstop -->
                <div class="header-top-content">
-                    <a href="/" class="header-top-content__logo" aria-label="Portfolio haex site logo" aria-current="page">
+                    <!-- <a href="/" class="header-top-content__logo" aria-label="Portfolio haex site logo" aria-current="page">
                          <img src="/img/logo.jpg" alt="logo">
-                    </a>
+                    </a> -->
 
                     <div class="header-top-content__info">
                          <nav role="navigation" aria-label="Main" class="header-top-content__info_nav">
