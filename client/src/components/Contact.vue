@@ -29,7 +29,7 @@
 
         const optionsElement = ref([
                 { icon: "/svg/telegram-icon.svg", text: "Telegram", link: "https://web.telegram.org/k/#@lklckld"},
-                { icon: "/svg/linkedin.svg", text: "Connect", link: "https://www.linkedin.com/in/%D0%B0%D1%80%D1%82%D1%83%D1%80-%D0%B4%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D0%BE-0a3a722a1/" },
+                { icon: "/svg/linkedin.svg", text: "LinkedIn", link: "https://www.linkedin.com/in/%D0%B0%D1%80%D1%82%D1%83%D1%80-%D0%B4%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D0%BE-0a3a722a1/" },
                 { icon: "/svg/gmail.svg", text: "Mail", link: "mailto:dotsenk20034@gmail.com" },
         ]);
 </script>

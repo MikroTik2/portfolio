@@ -5,7 +5,7 @@
                <!-- dekstop -->
                <div class="header-top-content">
                     <a href="/" class="header-top-content__logo" aria-label="Portfolio haex site logo" aria-current="page">
-                         A
+                         AD
                     </a>
 
                     <div class="header-top-content__info">
@@ -64,21 +64,23 @@
                     justify-content: space-between;
                     display: flex;
 
+                    @media only screen and (max-width: 768px) {
+                         width: 0;
+                    }
+
                     &__logo {
                          cursor: pointer;
                          text-decoration: none;
-                         display: initial;
+                         color: white;
+                         font-size: 21px;
+                         padding: 10px;
+                         border-radius: 4px;
+                         border: 1px solid white;
                          
                          @media only screen and (max-width: 768px) {
                               margin: 30px 0 40px;
-                              width: 100%;
                          }
                          
-                         img {
-                              height: 50px;
-                              width: 50px;
-                              border-radius: 15px;
-                         }
                     }
 
                     &__info {
