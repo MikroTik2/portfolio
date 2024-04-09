@@ -14,7 +14,7 @@
                                 
                                         <div class="hero-content-left__btn">
                                                 <Button type="link" href="#project" :color="colorLink || 'white'">My Project</Button>
-                                                <Button type="link" download @click="downloadResume">
+                                                <Button type="link" href="/public/pdf/Доценко Артур Юрийович.pdf">
                                                         Download resume
 
                                                         <div class="hero-content-left__btn-size">
@@ -71,19 +71,6 @@
         const props = defineProps({
                 colorLink: String,
         });
-
-        const downloadResume = () => {
-                const link = document.createElement('a');
-
-                link.href = '/pdf/Доценко Артур Юрийович.pdf';
-                link.download = 'Доценко Артур Юрийович.pdf';
-
-                document.body.appendChild(link);
-
-                link.click();
-
-                document.body.removeChild(link);
-        };
 
         const magneticItems = ref([ 
                 { _id: "skills-docker", svg: "/svg/docker.svg", name: "Docker"  },
