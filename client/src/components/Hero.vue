@@ -14,17 +14,16 @@
                                 
                                         <div class="hero-content-left__btn">
                                                 <Button type="link" href="#project" :color="colorLink || 'white'">My Project</Button>
-                                                <a download="/public/pdf/Доценко Артур Юрийович.pdf">
-                                                        <Button type="link">
-                                                                Download resume
+                                                <Button type="link" @click="downloadResume">
+                                                        Download resume
 
-                                                                <div class="hero-content-left__btn-size">
-                                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                                        </svg>
-                                                                </div>
-                                                        </Button>
-                                                </a>
+                                                        <div class="hero-content-left__btn-size">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                                </svg>
+                                                        </div>
+                                                </Button>
+
                                         </div>
                                 
                                 </div>
@@ -82,7 +81,20 @@
                 { _id: "skills-css", svg: "/svg/css.svg", name: "Css"  },
                 { _id: "skills-bootstrap", svg: "/svg/bootstrap.svg", name: "Bootstrap"  },
                 { _id: "skills-sass", svg: "/svg/sass.svg", name: "Sass"  },
-        ])
+        ]);
+
+        const downloadResume = () => {
+                const pdfUrl = '/public/pdf/resume.pdf';
+                const link = document.createElement('a');
+
+                link.href = pdfUrl;
+                link.download = pdfUrl;
+                link.setAttribute('download', 'resume.pdf');
+
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+        };
 
         onMounted(() => {
                 const cards = document.querySelectorAll(".hero-content-right__block");
