@@ -14,7 +14,7 @@
                                 
                                         <div class="hero-content-left__btn">
                                                 <Button type="link" href="#project" :color="colorLink || 'white'">My Project</Button>
-                                                <Button type="link" @click="downloadResume">
+                                                <Button type="link" download @click="downloadResume">
                                                         Download resume
 
                                                         <div class="hero-content-left__btn-size">
@@ -65,7 +65,6 @@
 
 <script setup>
         import { ref, onMounted } from 'vue';
-        import { saveAs } from 'file-saver';
         import Header from '@/components/layouts/Header.vue';
         import Button from '@/components/button/Button.vue';
 
@@ -74,8 +73,17 @@
         });
 
         const downloadResume = () => {
-                const resumePath = '../../public/pdf/Доценко Артур Юрийович.pdf'
-                saveAs(resumePath, 'Доценко Артур Юрийович.pdf');
+                const resumeFilePath = '/public/pdf/Доценко Артур Юрийович.pdf';
+                const downloadLink = document.createElement('a');
+
+                downloadLink.href = resumeFilePath;
+                downloadLink.download = 'Доценко Артур Юрийович.pdf';
+                downloadLink.target = '_blank';
+
+                document.body.appendChild(downloadLink);
+                downloadLink.click();
+                
+                document.body.removeChild(downloadLink);
         };
 
         const magneticItems = ref([ 
