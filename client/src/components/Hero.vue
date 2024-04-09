@@ -14,7 +14,7 @@
                                 
                                         <div class="hero-content-left__btn">
                                                 <Button type="link" href="#project" :color="colorLink || 'white'">My Project</Button>
-                                                <Button type="link" to="/resume">
+                                                <Button type="link" @click="downloadResume">
                                                         Download resume
 
                                                         <div class="hero-content-left__btn-size">
@@ -65,12 +65,18 @@
 
 <script setup>
         import { ref, onMounted } from 'vue';
+        import { saveAs } from 'file-saver';
         import Header from '@/components/layouts/Header.vue';
         import Button from '@/components/button/Button.vue';
 
         const props = defineProps({
                 colorLink: String,
         });
+
+        const downloadResume = () => {
+                const resumePath = '../../public/pdf/Доценко Артур Юрийович.pdf'
+                saveAs(resumePath, 'Доценко Артур Юрийович.pdf');
+        };
 
         const magneticItems = ref([ 
                 { _id: "skills-docker", svg: "/svg/docker.svg", name: "Docker"  },
