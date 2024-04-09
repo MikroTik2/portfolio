@@ -73,17 +73,16 @@
         });
 
         const downloadResume = () => {
-                const resumeFilePath = '/public/pdf/Доценко Артур Юрийович.pdf';
-                const downloadLink = document.createElement('a');
+                const link = document.createElement('a');
 
-                downloadLink.href = resumeFilePath;
-                downloadLink.download = 'Доценко Артур Юрийович.pdf';
-                downloadLink.target = '_blank';
+                link.href = '/pdf/Доценко Артур Юрийович.pdf';
+                link.download = 'Доценко Артур Юрийович.pdf';
 
-                document.body.appendChild(downloadLink);
-                downloadLink.click();
-                
-                document.body.removeChild(downloadLink);
+                document.body.appendChild(link);
+
+                link.click();
+
+                document.body.removeChild(link);
         };
 
         const magneticItems = ref([ 
