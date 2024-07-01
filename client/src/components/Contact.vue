@@ -11,6 +11,7 @@
 
                                         <span>{{ element.text }}</span>
                                 </div>
+                                
                                 <div class="contact-options-item"></div>
                                 <div class="contact-options-item"></div>
                         </div>
@@ -28,9 +29,9 @@
         import { ref } from 'vue';
 
         const optionsElement = ref([
-                { icon: "/svg/telegram-icon.svg", text: "Telegram", link: "https://web.telegram.org/k/#@lklckld"},
+                { icon: "/svg/telegram-icon.svg", text: "Telegram", link: "https://web.telegram.org/k/#@d16ddd348"},
                 { icon: "/svg/linkedin.svg", text: "LinkedIn", link: "https://www.linkedin.com/in/%D0%B0%D1%80%D1%82%D1%83%D1%80-%D0%B4%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D0%BE-0a3a722a1/" },
-                { icon: "/svg/gmail.svg", text: "Mail", link: "mailto:dotsenk20034@gmail.com" },
+                { icon: "/img/email.png", text: "Mail", link: "mailto:dotsenk20034@gmail.com" },
         ]);
 </script>
 
@@ -63,25 +64,25 @@
                         &-1 {
                                 width: 700px;
                                 height: 400px;
-                                background: rgba(0, 102, 255, 5%);
                                 transform: rotate(33deg);
                                 position: absolute;
+                                background: url("/img/background.png.pagespeed.ce.png")
                         }
 
                         &-2 {
                                 width: 900px;
                                 height: 200px;
-                                background: rgba(104,23,255,9%);
                                 transform: rotate(111deg);
                                 position: absolute;
+                                background: url("/img/background.png.pagespeed.ce.png")
                         }
 
                         &-3 {
                                 width: 1300px;
                                 height: 200px;
-                                background: rgba(255,13,65,9%);
                                 transform: rotate(131deg);
                                 position: absolute;
+                                background: url("/img/background.png.pagespeed.ce.png")
                         }
                 }
 

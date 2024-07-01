@@ -19,6 +19,7 @@
                         'btn--white': color === 'white',
                 }]"
                 :href="href"
+                :download="download"
                 :style="{ backgroundColor: background }"
         >
                       
@@ -37,6 +38,10 @@
                         required: false,
                 },
                 color: {
+                        type: String,
+                        required: false,
+                },
+                download: {
                         type: String,
                         required: false,
                 },
@@ -70,6 +75,11 @@
                 &--white {
                         background: var(--white);
                         color: var(--dark);
+                        transition: all .2s;
+
+                        &:hover {
+                                background: #ffffffdd;
+                        }
                 }
         }
 </style>

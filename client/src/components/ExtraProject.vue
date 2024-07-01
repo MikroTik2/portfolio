@@ -28,9 +28,9 @@
         import { ref } from 'vue';
 
         const extraItems = ref([
-                { name: "JolyBell.clone", linkDemo: "https://jolybell-client.vercel.app", linkGitHub: "https://github.com/MikroTik2/jolybell", tools: [ "Vue", "Sass", "Express.js" ] },
-                { name: "Shopr", linkDemo: "", linkGitHub: "https://github.com/MikroTik2/ecommerce-shopr", tools: [ "Vue", "Sass", "Express.js", "Node.js" ]   },
-                { name: "Telegram Bot", linkDemo: "", linkGitHub: "https://github.com/MikroTik2/telegram-download", tools: [ "telegraf.js", "axios" ] },
+                { name: "Social Download Bot", linkDemo: "https://web.telegram.org/a/#6766527904", linkGitHub: "https://github.com/MikroTik2/tg_bot_download_social_video", tools: [ "telegraf.js", "nest.js", "axios", "typescript", "cloudinary" ] },
+                { name: "Marganets Studios", linkDemo: "https://marganets-studios.vercel.app/", linkGitHub: "https://github.com/MikroTik2/marganets-studios", tools: [ "vue.js", "firebase", "typescript", "tailwind" ] },
+                { name: "RESTfull API", linkDemo: "", linkGitHub: "https://github.com/MikroTik2/dev.", tools: [ "nest.js", "mongodb", "typescript", "cloudinary", "redis", "swagger" ] },
         ]);
 </script>
 

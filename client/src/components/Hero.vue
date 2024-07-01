@@ -14,7 +14,7 @@
                                 
                                         <div class="hero-content-left__btn">
                                                 <Button type="link" href="#project" :color="colorLink || 'white'">My Project</Button>
-                                                <Button type="link" @click="downloadResume">
+                                                <Button type="link" href="/public/pdf/resume.pdf" download="resume">
                                                         Download resume
 
                                                         <div class="hero-content-left__btn-size">
@@ -82,19 +82,6 @@
                 { _id: "skills-bootstrap", svg: "/svg/bootstrap.svg", name: "Bootstrap"  },
                 { _id: "skills-sass", svg: "/svg/sass.svg", name: "Sass"  },
         ]);
-
-        const downloadResume = () => {
-                const pdfUrl = '/public/pdf/resume.pdf';
-                const link = document.createElement('a');
-
-                link.href = pdfUrl;
-                link.download = pdfUrl;
-                link.setAttribute('download', 'resume.pdf');
-
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-        };
 
         onMounted(() => {
                 const cards = document.querySelectorAll(".hero-content-right__block");

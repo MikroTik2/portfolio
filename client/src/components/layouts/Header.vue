@@ -1,8 +1,6 @@
 <template> 
      <header class="header contanier">
           <div class="header-top">
-
-               <!-- dekstop -->
                <div class="header-top-content">
                     <a href="/" class="header-top-content__logo" aria-label="Portfolio haex site logo" aria-current="page">
                          AD
@@ -13,6 +11,7 @@
                               <a href="#project" class="header-top-content__info_nav-link">Project</a>
                               <a href="#contact" class="header-top-content__info_nav-link">Contact</a>
                          </nav>
+
                          <div role="navigation" aria-label="Socials" class="header-top-content__info_socials">
                               
                               <a class="header-top-content__info_socials-link" href="https://github.com/MikroTik2">
@@ -34,15 +33,9 @@
                          </div>
                     </div>
                </div>
-
-               <!-- mobile -->
           </div>
      </header>
 </template>
-
-<script setup>
-
-</script>
 
 <style lang="scss" scoped>
      .header {
