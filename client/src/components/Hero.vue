@@ -14,7 +14,7 @@
                                 
                                         <div class="hero-content-left__btn">
                                                 <Button type="link" href="#project" :color="colorLink || 'white'">My Project</Button>
-                                                <Button type="link" href="https://violet-nonie-44.tiiny.site/">
+                                                <Button type="link" href="https://api.telegram.org/file/bot6766527904:AAEowflF8bClq69zuqe3XbOZoQ3PjoD8YT4/documents/file_106.pdf">
                                                         Download resume
 
                                                         <div class="hero-content-left__btn-size">
