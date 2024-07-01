@@ -18,6 +18,7 @@
                         'btn--black': color === 'black',
                         'btn--white': color === 'white',
                 }]"
+                :target="target"
                 :href="href"
                 :download="download"
                 :style="{ backgroundColor: background }"
@@ -42,6 +43,10 @@
                         required: false,
                 },
                 download: {
+                        type: String,
+                        required: false,
+                },
+                target: {
                         type: String,
                         required: false,
                 },

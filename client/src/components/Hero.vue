@@ -14,7 +14,7 @@
                                 
                                         <div class="hero-content-left__btn">
                                                 <Button type="link" href="#project" :color="colorLink || 'white'">My Project</Button>
-                                                <Button type="link" href="/pdf/resume.pdf" target="_blank" download="resume">
+                                                <Button type="link" href="https://violet-nonie-44.tiiny.site/">
                                                         Download resume
 
                                                         <div class="hero-content-left__btn-size">
