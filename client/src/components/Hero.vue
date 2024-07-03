@@ -68,7 +68,6 @@
         import { ref, onMounted } from 'vue';
         import Header from '@/components/layouts/Header.vue';
         import Button from '@/components/button/Button.vue';
-        import {siteConfig} from '@/config/site';
 
         const props = defineProps({
                 colorLink: String,
