@@ -14,9 +14,9 @@
                                 
                                         <div class="hero-content-left__btn">
                                                 <Button type="link" href="#project" :color="colorLink || 'white'">My Project</Button>
-                                                <Button type="link" href="https://api.telegram.org/file/bot6766527904:AAEowflF8bClq69zuqe3XbOZoQ3PjoD8YT4/documents/file_106.pdf">
+                                                <Button type="link" :href="siteConfig.telegram_resume">
                                                         Download resume
-
+                                                        
                                                         <div class="hero-content-left__btn-size">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                                                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -68,6 +68,7 @@
         import { ref, onMounted } from 'vue';
         import Header from '@/components/layouts/Header.vue';
         import Button from '@/components/button/Button.vue';
+        import siteConfig from '@/config/site';
 
         const props = defineProps({
                 colorLink: String,
