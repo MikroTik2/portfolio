@@ -31,7 +31,7 @@
                                                                 <a class="tool-content-flex_mobile__left-toggle" href="#project">
                                                                         Project 
                                                                 </a>
-                                                                <a class="tool-content-flex_mobile__left-toggle" href="/">
+                                                                <a class="tool-content-flex_mobile__left-toggle" rel="noopener noreferrer" target="_blank" download="resume" href="/file/resume.pdf">
                                                                         Resume
                                                                 </a>
                                                         </div>
