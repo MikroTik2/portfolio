@@ -46,6 +46,10 @@
                         type: String,
                         required: false,
                 },
+                ref: {
+                        type: String,
+                        required: false,
+                },
                 target: {
                         type: String,
                         required: false,

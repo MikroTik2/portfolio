@@ -14,7 +14,7 @@
                                 
                                         <div class="hero-content-left__btn">
                                                 <Button type="link" href="#project" :color="colorLink || 'white'">My Project</Button>
-                                                <Button type="link" href="https://api.telegram.org/file/bot6772463405:AAGlbQ8ioOXC70kmg8JaVgbkDBnKVzroIr0/documents/file_98.pdf">
+                                                <Button rel="noopener noreferrer" type="link" target="_blank" download="resume" href="/file/resume.pdf">
                                                         Download resume
                                                         
                                                         <div class="hero-content-left__btn-size">
