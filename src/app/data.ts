@@ -29,18 +29,18 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
 	{
-		name: 'Motion Primitives Pro',
+		name: 'NestJS Monobank',
 		description:
-			'Розширені компоненти та шаблони для створення красивих вебсайтів.',
-		link: 'https://pro.motion-primitives.com/',
+			'Інтеграція з Monobank API для роботи з платежами.',
+		link: 'https://nestjs-monobank.vercel.app',
 		video: 'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
 		id: 'project1'
 	},
 	{
-		name: 'Motion Primitives',
+		name: 'Template Admin',
 		description:
-			'UI-кіт для створення красивих анімованих інтерфейсів.',
-		link: 'https://motion-primitives.com/',
+			'Адмінка на Next.js + shadcn/ui: таблиці, графи, теми.',
+		link: 'https://nuxt-shadcn-dashboard-starter.vercel.app',
 		video: 'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
 		id: 'project2'
 	}
@@ -52,7 +52,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 		title: 'Fullstack-розробник',
 		start: '2024',
 		end: 'дотепер',
-		link: 'https://ibelick.com',
+		link: '/',
 		id: 'work1'
 	},
 	{
@@ -60,7 +60,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 		title: 'Фронтенд-розробник',
 		start: '2023',
 		end: '2024',
-		link: 'https://ibelick.com',
+		link: '/',
 		id: 'work2'
 	},
 	{
@@ -68,7 +68,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 		title: 'Фронтенд-розробник',
 		start: '2021',
 		end: '2023',
-		link: 'https://ibelick.com',
+		link: '/',
 		id: 'work3'
 	}
 ]
