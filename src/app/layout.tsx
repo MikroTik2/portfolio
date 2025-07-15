@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 		title: SEO.name,
 		description: SEO.description,
 		type: 'website',
-		emails: ['support@mn_climate.com'],
+		emails: ['dotsenk20034@gmail.com'],
 		siteName: SEO.name,
 		locale: 'uk_UK',
 		images: [
