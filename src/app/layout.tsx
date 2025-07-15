@@ -53,7 +53,7 @@ export const metadata: Metadata = {
 }
 
 const geist = Geist({
-	variable: '--font-geist sdfsdf',
+	variable: '--font-geist',
 	subsets: ['latin']
 })
 
