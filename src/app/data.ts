@@ -2,7 +2,7 @@ type Project = {
 	name: string
 	description: string
 	link: string
-	video: string
+	photo: string
 	id: string
 }
 
@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
 		name: 'NestJS Monobank',
 		description: 'Інтеграція з Monobank API для роботи з платежами.',
 		link: 'https://nestjs-monobank.vercel.app',
-		video: 'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+		photo: 'https://res.cloudinary.com/terieyenike/image/upload/v1752577639/uploaded/23.png.png',
 		id: 'project1'
 	},
 	{
@@ -40,7 +40,7 @@ export const PROJECTS: Project[] = [
 		description:
 			'Адмінка на Next.js + shadcn/ui: таблиці, графи, теми.',
 		link: 'https://nuxt-shadcn-dashboard-starter.vercel.app',
-		video: 'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+		photo: 'https://res.cloudinary.com/terieyenike/image/upload/v1752577665/uploaded/image.png.png',
 		id: 'project2'
 	}
 ]

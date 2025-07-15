@@ -42,11 +42,11 @@ const TRANSITION_SECTION = {
 	duration: 0.3
 }
 
-type ProjectVideoProps = {
+type ProjectPhotoProps = {
 	src: string
 }
 
-function ProjectVideo({ src }: ProjectVideoProps) {
+function ProjectPhoto({ src }: ProjectPhotoProps) {
 	return (
 		<MorphingDialog
 			transition={{
@@ -56,21 +56,21 @@ function ProjectVideo({ src }: ProjectVideoProps) {
 			}}
 		>
 			<MorphingDialogTrigger>
-				<video
-					src={src}
-					autoPlay
-					loop
-					muted
+				<img
 					className='aspect-video w-full cursor-zoom-in rounded-xl'
+					loading='lazy'
+					decoding='async'
+					src={src}
+					alt='nestjs-monobank'
 				/>
 			</MorphingDialogTrigger>
 			<MorphingDialogContainer>
 				<MorphingDialogContent className='relative aspect-video rounded-2xl bg-zinc-50 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950 dark:ring-zinc-800/50'>
-					<video
+					<img
+						loading='lazy'
+						decoding='async'
 						src={src}
-						autoPlay
-						loop
-						muted
+						alt='template-admin'
 						className='aspect-video h-[50vh] w-full rounded-xl md:h-[70vh]'
 					/>
 				</MorphingDialogContent>
@@ -168,8 +168,8 @@ export default function Personal() {
 							className='space-y-2'
 						>
 							<div className='relative rounded-2xl bg-zinc-50/40 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50'>
-								<ProjectVideo
-									src={project.video}
+								<ProjectPhoto
+									src={project.photo}
 								/>
 							</div>
 							<div className='px-1'>
