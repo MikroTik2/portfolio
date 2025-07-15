@@ -26,7 +26,7 @@ const nextConfig = {
 		mdxRs: true
 	},
 	env: {
-		APP_URL: process.env['APP_URL'],
+		APP_URL: process.env['APP_URL']
 	}
 }
 

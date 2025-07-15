@@ -30,8 +30,7 @@ type SocialLink = {
 export const PROJECTS: Project[] = [
 	{
 		name: 'NestJS Monobank',
-		description:
-			'Інтеграція з Monobank API для роботи з платежами.',
+		description: 'Інтеграція з Monobank API для роботи з платежами.',
 		link: 'https://nestjs-monobank.vercel.app',
 		video: 'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
 		id: 'project1'
