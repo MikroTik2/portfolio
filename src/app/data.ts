@@ -40,35 +40,27 @@ export const PROJECTS: Project[] = [
 		description:
 			'Адмінка на Next.js + shadcn/ui: таблиці, графи, теми.',
 		link: 'https://nuxt-shadcn-dashboard-starter.vercel.app',
-		photo: 'https://res.cloudinary.com/terieyenike/image/upload/v1752577665/uploaded/image.png.png',
+		photo: 'http://res.cloudinary.com/terieyenike/image/upload/v1753457282/uploaded/Screenshot%202025-07-25%20at%2018.27.45.png.png',
 		id: 'project2'
 	}
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
 	{
-		company: 'Фітнес-студія (фріланс)',
-		title: 'Fullstack-розробник',
-		start: '2024',
-		end: 'дотепер',
-		link: '/',
+		company: 'Open Source проєкти та фриланс-замовлення',
+		title: 'Фронтенд-розробник (React / Vue)',
+		start: '2023',
+		end: '2025',
+		link: '/experience/opensourse',
 		id: 'work1'
 	},
 	{
-		company: 'Open Source / Фріланс',
-		title: 'Фронтенд-розробник',
-		start: '2023',
-		end: '2024',
-		link: '/',
-		id: 'work2'
-	},
-	{
-		company: 'Фриланс',
-		title: 'Фронтенд-розробник',
-		start: '2021',
+		company: 'Приватна веб-студія (фріланс проєкти в команді)',
+		title: 'Фронтенд-розробник (Vue / Nuxt)',
+		start: '2022',
 		end: '2023',
-		link: '/',
-		id: 'work3'
+		link: '/experience/web-studio',
+		id: 'work2'
 	}
 ]
 
