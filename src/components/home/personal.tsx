@@ -57,7 +57,7 @@ function ProjectPhoto({ src }: ProjectPhotoProps) {
 		>
 			<MorphingDialogTrigger>
 				<img
-					className='aspect-video w-full cursor-zoom-in rounded-xl'
+					className='w-full cursor-zoom-in rounded-xl'
 					loading='lazy'
 					decoding='async'
 					src={src}
@@ -65,13 +65,13 @@ function ProjectPhoto({ src }: ProjectPhotoProps) {
 				/>
 			</MorphingDialogTrigger>
 			<MorphingDialogContainer>
-				<MorphingDialogContent className='relative aspect-video rounded-2xl bg-zinc-50 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950 dark:ring-zinc-800/50'>
+				<MorphingDialogContent className='relative rounded-2xl bg-zinc-50 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950 dark:ring-zinc-800/50'>
 					<img
 						loading='lazy'
 						decoding='async'
 						src={src}
 						alt='template-admin'
-						className='aspect-video h-[50vh] w-full rounded-xl md:h-[70vh]'
+						className='aspect-square h-[50vh] w-full rounded-xl object-contain md:h-[70vh]'
 					/>
 				</MorphingDialogContent>
 				<MorphingDialogClose
