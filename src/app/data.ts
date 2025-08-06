@@ -91,10 +91,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
 		link: 'https://www.linkedin.com/in/artur-docenko-0a3a722a1'
 	},
 	{
-		label: 'Instagram',
-		link: 'https://www.instagram.com/artur.docenko'
-	},
-	{
 		label: 'Telegram',
 		link: 'https://t.me/d16ddd348'
 	}
